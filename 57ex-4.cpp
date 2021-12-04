@@ -5,12 +5,11 @@ using namespace std;
 
 int main(){
 
-    string noun = "";
-    string verb = "";
-    string adj = "";
-    string adv = "";
-    //char* adv = ""; why get error?
-
+    string noun{5, 'A'};
+    string verb;
+    string adj;
+    string adv;
+    
     cout << "Enter a noun: ";
     cin >> noun;
     cout << "Enter a verb: ";

@@ -14,9 +14,10 @@ using namespace std;
 
 
 // int main(){
-
-//     char* str;
-
+//     char str2[100];
+//     char *str = new char[3];
+//     char * str = str2;
+//     
 //     cout << "What is the input string? ";
 //     cin >> str;
 //     cout << *str << " has " << _strlen(str) << " characters.";
